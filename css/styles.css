@@ -9,26 +9,24 @@ body {
 /* ========HEADER======= */
 
 .page-logo {
-   
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.166;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: #4d5ae5;
         
         
 }
 .text-italic {
     
-color: #4d5ae5;
+color: #2e2f42;
 line-height: 1.17
 
 }
-.text-studio {
-   
-        text-transform: uppercase;
-        color: #2e2f42;
-}
+
+
 .menu-link {
    
         font-weight: 500;
@@ -37,9 +35,23 @@ line-height: 1.17
         letter-spacing: 0.02em;
        
 }
-.nav-adres {
-    font-style: normal
+
+.nav-adress {
+   
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    font-style: normal;
+    
 }
+.menu-contact:hover,
+.menu-contact:focus {
+    color: #404bbf
+}
+
+
 .nav-menu-contact {
         font-weight: 400;
         font-size: 16px;
@@ -68,18 +80,21 @@ line-height: 1.17
 }
 
 button {
-            .a:hover {
-
-            }
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.04em;
             color: #fff;
             background: #4d5ae5;
             
 }
+.button:hover,
+.button:focus {
+    background-color: #404BBF
+}
 .tape_button {
         border-radius: 4px;
-            padding: 16px 32px;
             width: 169px;
             height: 56px; }
             
@@ -91,8 +106,8 @@ button {
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        background-color: #2e2f42
-        color: #fff;
+        background-color: #2e2f42;
+        color: #2e2f42;
 }
 .hero-class .link:hover, 
 .hero-class .link:focus{
@@ -109,8 +124,15 @@ button {
         text-align: center;
         color: #2e2f42;
 }
+.title-benefits{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .all-benefits {
-    font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -143,7 +165,15 @@ button {
 /* ========TEAM===== */
 
 .section-team {
-    background: #FFFFFF;
+        
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+    background: #F4F4FD;
+
     };
     .title-team {
             font-weight: 700;
@@ -174,9 +204,6 @@ button {
 /* OUR PORTFOLIO */
 
 .portfolio-title{
-    
-
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -213,12 +240,18 @@ color: #2e2f42;
         text-transform: uppercase;
         color: #f4f4fd;
 }
-.in-logo{
+.link-logo{
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #f4f4fd;
+        color: #4d5ae5;
+        
 }
 
+.in-logo {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
