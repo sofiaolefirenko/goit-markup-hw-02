@@ -109,10 +109,13 @@ button {
         background-color: #2e2f42;
         color: #2e2f42;
 }
-.hero-class .link:hover, 
-.hero-class .link:focus{
-    background-color: #404BBF,
-     background-color: #404BBF;
+.tape_button .link:hover, 
+.tape_button .link:focus{
+    background-color: #404BBF;
+    
+}
+.main-taitle{
+    line-height: 1.07
 }
 
 /* =====BENEFITS====== */
@@ -190,11 +193,14 @@ button {
 }
 .name-team {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 
+.team-our {
+    background-color: #FFFFFF;
+}
 .about-team {
     font-size: 16px;
     line-height: 1.5;
@@ -238,7 +244,7 @@ color: #2e2f42;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
 }
 .link-logo{
     font-family: "Roboto", sans-serif;
@@ -246,11 +252,11 @@ color: #2e2f42;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #4d5ae5;
+        color: #fff;
         
 }
 
-.in-logo {
+.in-logo-class {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
