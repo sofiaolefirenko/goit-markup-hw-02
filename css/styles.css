@@ -18,17 +18,8 @@ body {
     color: #4d5ae5;
 
 }
-.page-logo {
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        
 
-}
+    
 .text-italic {
     
 color: #2e2f42;
@@ -49,7 +40,7 @@ line-height: 1.17
        
 }
 
-.nav-list- {
+.nav-list-item {
     color: #2e2f42;
 }
 
@@ -60,7 +51,6 @@ font-style: normal
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-    font-style: normal;
     
 }
 .menu-contact:hover,
@@ -127,7 +117,7 @@ button {
         color: #2e2f42;
 }
 .social-link .tape_button:hover, 
-.social-link .tape_button:focus{
+.social-link .tape_button:focus {
     background-color: #404BBF;
     
 }
@@ -161,7 +151,7 @@ button {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -194,8 +184,8 @@ button {
     }
     .title-team {
             font-weight: 700;
-            font-size: 36px;
-            line-height: 1.11;
+            font-size: 20px;
+            line-height: 1.2;
             letter-spacing: 0.02em;
             text-align: center;
             text-transform: capitalize;
@@ -224,7 +214,7 @@ button {
 }
 /* OUR PORTFOLIO */
 
-.portfolio-title{
+.portfoli-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
