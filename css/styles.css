@@ -45,13 +45,13 @@ line-height: 1.17
 }
 
 .nav-adress {
-font-style: normal
+
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
-    
+        color: #2e2f42;
+    font-style: normal;
 }
 .menu-contact:hover,
 .menu-contact:focus {
@@ -96,8 +96,8 @@ button {
             background: #4d5ae5;
             
 }
-.button:hover,
-.button:focus {
+.tape_button:hover,
+.tape_button:focus {
     background-color: #404BBF
 }
 .tape_button {
@@ -116,8 +116,8 @@ button {
         background-color: #2e2f42;
         color: #2e2f42;
 }
-.social-link .tape_button:hover, 
-.social-link .tape_button:focus {
+.button:hover, 
+.button:focus {
     background-color: #404BBF;
     
 }
