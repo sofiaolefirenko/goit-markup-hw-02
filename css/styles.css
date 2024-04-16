@@ -17,13 +17,16 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
         
-        
+
 }
 .text-italic {
     
 color: #2e2f42;
 line-height: 1.17
 
+}
+.header-logo {
+    color: #2e2f42;
 }
 
 
@@ -34,6 +37,9 @@ line-height: 1.17
         line-height: 1.5;
         letter-spacing: 0.02em;
        
+}
+.nav-list-item {
+    color: #2e2f42;
 }
 
 .nav-adress {
@@ -95,8 +101,8 @@ button {
 }
 .tape_button {
         border-radius: 4px;
-            width: 169px;
-            height: 56px; }
+            
+             }
             
 /* =========HERO======== */
 .hero-class{
@@ -109,13 +115,13 @@ button {
         background-color: #2e2f42;
         color: #2e2f42;
 }
-.tape_button .link:hover, 
-.tape_button .link:focus{
+.social-link .tape_button:hover, 
+.social-link .tape_button:focus{
     background-color: #404BBF;
     
 }
 .main-taitle{
-    line-height: 1.07
+    line-height: 1.07;
 }
 
 /* =====BENEFITS====== */
@@ -210,12 +216,13 @@ button {
 /* OUR PORTFOLIO */
 
 .portfolio-title{
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize;
-color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .title-new {
         font-weight: 500;
@@ -252,12 +259,15 @@ color: #2e2f42;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #fff;
+        color: #f4f4fd;
         
 }
 
 .in-logo-class {
+
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
-    color: #F4F4FD;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
