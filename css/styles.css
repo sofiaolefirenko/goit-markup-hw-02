@@ -8,6 +8,16 @@ body {
 }
 /* ========HEADER======= */
 
+.logo-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
 .page-logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -119,9 +129,6 @@ button {
 .social-link .tape_button:focus{
     background-color: #404BBF;
     
-}
-.main-taitle{
-    line-height: 1.07;
 }
 
 /* =====BENEFITS====== */
