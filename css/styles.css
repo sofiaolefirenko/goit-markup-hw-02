@@ -48,12 +48,13 @@ line-height: 1.17
         letter-spacing: 0.02em;
        
 }
-.nav-list-item {
+
+.nav-list- {
     color: #2e2f42;
 }
 
 .nav-adress {
-   
+font-style: normal
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -190,7 +191,7 @@ button {
         color: #2e2f42;
     background: #F4F4FD;
 
-    };
+    }
     .title-team {
             font-weight: 700;
             font-size: 36px;
@@ -199,6 +200,7 @@ button {
             text-align: center;
             text-transform: capitalize;
             color: #2e2f42;
+            background: #F4F4FD;
     }
 
 .Team {
@@ -225,7 +227,7 @@ button {
 .portfolio-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -236,13 +238,16 @@ button {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
         color: #2e2f42;
 }
 
 .page-text {
+        font-weight:400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
         color: #434455;
 }
 
