@@ -19,7 +19,7 @@ body {
 
 }
 
-    
+  border-radius
 .text-italic {
     
 color: #2e2f42;
@@ -100,10 +100,7 @@ button {
 .tape_button:focus {
     background-color: #404BBF
 }
-.tape_button {
-        border-radius: 4px;
-            
-             }
+
             
 /* =========HERO======== */
 .hero-class{
